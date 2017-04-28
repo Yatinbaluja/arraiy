@@ -9,9 +9,9 @@ set(ARDUINO_DEFAULT_PORT /dev/ttyUSB0) # Default Port, when not specified
 #====================================================================#
 # master_writer example from Wire library
 #====================================================================#
-generate_arduino_example(wire_example
-                         LIBRARY Wire
-                         EXAMPLE master_writer)
+#generate_arduino_example(wire_example
+#                         LIBRARY Wire
+#                         EXAMPLE master_writer)
 
 # Alternative: by vairables
 #set(wire_example_LIBRARY Wire)
